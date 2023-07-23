@@ -1,0 +1,252 @@
+<html>
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Home Page</title> 
+    </head>
+
+    <body bgcolor="	#FFDEAD">
+
+      <center>
+        <!--Using coding to create button-->
+        <button onclick="document.location= 'index.html'">Hompage</button>
+        <button onclick="document.location= 'biodata.html'">Biodata</button>
+        <button onclick="document.location= 'family.html'">Family</button>
+        <button onclick="document.location= 'education.html'">Education</button>
+        <button onclick="document.location= 'contact.html'">Contact</button>
+        <button onclick="document.location= 'gallery.html'">Gallery</button>
+    </center>
+
+        <h1 style="color:#800000;">My Simple Biodata ☆</h1>
+        <br>
+
+
+<style>
+.box{
+    border: 1px solid #F9BDD6 
+;
+  }
+  
+  body {
+    font-family: Arial;
+    font-size: 17px;
+  }
+  
+  .container {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .container img {vertical-align: middle;}
+  
+  .container .content {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color:#f1f1f1;
+    width: 100%;
+    padding: 01px;
+  }
+  </style>
+  </head>
+  <body>
+  
+  
+  <div class="container box">
+    <img src="images/nina 1.jpeg" alt="nina" style="width:100%;">
+    <div class="content">
+      <h1>Get to know me˚ʚ♡ɞ˚</h1>
+      <p>My full name is Nurin Adriana Binti Ahmad Rizam. I was born in 16 September 2002 at Hospital Tengku Ampuan Rahimah.
+        I am 21 years old this year. My hobby is watching movies and kdramas and also reading books and poems. 
+        My comfort and favourite food is ice cream, ramen and buttermilk. Pink, cream and blue are my are my favourite colours. 
+        Most dream is to go to bts concert one day. I am now in my diploma semester 5 in course information management.
+      </p>
+    </div>
+  </div>
+
+  </body>
+
+  <h1 style="text-align:center;">FUN FACT ABOUT ME</h1>
+  <p style="text-align:center;">Click on my photos to read facts about me</p>
+
+  
+  <meta name="my pictures" content="width=device-width, initial-scale=1">
+  <style>
+  .container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    display: block;
+    width: 50%;
+    height: auto;
+  }
+  
+  .overlay {
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 50%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #DEB887;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 15px;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+    <center>
+<div class="container">
+  <img src="images/nina 4.jpeg" alt="nina 4" class="image">
+  <div class="overlay">
+    <div class="text">Here are some fun facts about me. I am a very shy and sensitive kind of person.
+        I am an introvert so it takes me a while to open up to someone new.
+        I love taking pictures and videos as a form of memory. I have at least 22,000 pictures in my phone. 
+        I am a melancholic type of person.</div>
+    </div>
+</div>
+<div class="container">
+<img src="images/nina 3.jpeg" alt="nina 3" class="image">
+<div class="overlay">
+    <div class="text">I love taking pictures using film camera. 
+        I also really love reading and I am very good at memorising things instead of doing mathematics. 
+        That is why I love history and english subject.</div>
+    </div>
+</div>
+    </center>
+    </style>
+
+    <style>
+        div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+    
+    <h2>More about me</h2>
+    
+    <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="images/nina 5.jpeg">
+            <img src="images/nina 5.jpeg" alt="nina 5">
+          </a>
+          <div class="desc">I really love the ocean and staring at the sunset. It makes me feel calm and brings comfort to me.
+            I have bunch of collections of photos at the beach.
+          </div>
+        </div>
+      </div>
+      
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="images/nina 6.jpeg">
+            <img src="images/nina 6.jpeg" alt="nina 6">
+          </a>
+          <div class="desc">I also really love listening to music. I listen to plenty of genres such a rnb, pop, hiphop,k-pop and many more.
+            My most favourite artists are Keshi, BTS, Lana Del Rey and New Jeans.
+          </div>
+        </div>
+      </div>
+      
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="images/nina 7.jpeg">
+            <img src="images/nina 7.jpeg" alt="nina 7">
+          </a>
+          <div class="desc">I also like to watch Youtube during my leisure time. I like to watch ASMR, makeup tutorials and self care and motivation.
+            My favourite youtuber is The Wizard Liz, Azfarheri and many more.
+          </div>
+        </div>
+      </div>
+      
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="images/nina 8.jpeg">
+            <img src="images/nina 8.jpeg" alt="nina 8">
+          </a>
+          <div class="desc">I love go to museum and taking pictures. I also love doing video editing as a from of memory with important 
+            people in my life. I also like to go to cafe hunting, playing games at arcade, and funfair to have fun with my friends.
+          </div>
+        </div>
+      </div>
+      
+      <div class="clearfix"></div>
+      <p style="text-align:center;">Scroll down to see a video of me ₊˚⊹♡</p>
+
+      <center>
+        <video width="400" controls>
+          <source src="video/nina video 1.mp4" type="video/mp4">
+          <source src="mov_bbb.ogg" type="video/ogg">
+          Your browser does not support HTML video.
+        </video>
+        </center>
+        
+
+    
+    </body>
+    </html>
+
+    

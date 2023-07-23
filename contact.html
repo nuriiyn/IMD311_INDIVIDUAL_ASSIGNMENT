@@ -1,0 +1,99 @@
+<html>
+<head>
+
+  <center>
+    <!--Using coding to create button-->
+    <button onclick="document.location= 'index.html'">Hompage</button>
+    <button onclick="document.location= 'biodata.html'">Biodata</button>
+    <button onclick="document.location= 'family.html'">Family</button>
+    <button onclick="document.location= 'education.html'">Education</button>
+    <button onclick="document.location= 'contact.html'">Contact</button>
+    <button onclick="document.location= 'gallery.html'">Gallery</button>
+</center>
+
+<body bgcolor="	#FFDEAD"></body>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.flip-box {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-box-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-box-back {
+  background-color: #555;
+  color: white;
+  transform: rotateY(180deg);
+}
+</style>
+</head>
+<body>
+
+<center>
+<h1 style="color:#800000;"> How to contact me☆</h1>
+<h3>Flip the image below:</h3>
+
+
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <img src="images/nina 9.jpeg" alt="Nina" style="width:400px;height:450px">
+    </div>
+    <div class="flip-box-back" style="color:#FFDEAD; width:400px;height:450px">
+      <h2 style="color:#fff3cd;"> Where to reach me</h2>
+      <p1>2021117199</p1>
+      <br>
+      <p2>Instagram:</p2>
+      <br>
+      <!--Using image as hyperlink-->
+      <a href="https://www.instagram.com/nuriiyn/"><img src="images/ig logo.png" width="30 px"></a>
+      <br>
+      <p4>(Click on the icon)</p4>
+      <br>
+      <p4>Phone number:</p4>
+      <br>
+      <p5>011-64097146</p5>
+      <br>
+      <p6>E-mail:</p6>
+      <br>
+      <p7>2021117199@student.uitm.edu.my</p7>
+
+    </div>
+  </div>
+</div>
+</center>
+
+</body>
+</html>
